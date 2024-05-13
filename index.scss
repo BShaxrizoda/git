@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+}
